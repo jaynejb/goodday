@@ -1,81 +1,98 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Musings Blog</title>
-	</head>
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="custom" href="custom.css"/>
+        <title>Musings Blog</title>
+    </head>
 
 <body>
-	<header>
-		<div style="width:1000px; height: 300px; margin: 1px;">
-    		<h1 style="padding-left: 15px; padding-top: 15px;">Musings</h1>
-        	<img src = "http://placehold.it/1000x200" />
-    	</div>
-    </header>
+    <header>
+        <div id = "banner">
+            <h1>Musings</h1>
+          <div id = "banner_image">
+            <img src = "http://placehold.it/1000x200" />
+            </div>
+    </div>
+  </header>
+
+    <section id = "navigation_bar"><!--Nav Bar-->
+        <div id = "button_nav" style = "float: left;">
+          <h3><a href="www.bloc.io">Blog</a></h3>
+      </div>
+      <div id = "button_nav" style = "float: left;">
+        <h3><a href="www.bloc.io">About</a></h3>
+      </div>
+      <div id = "button_nav" style="float: right;">
+        <h3><a href="www.bloc.io">Sign In</a></h3>
+      </div>
+      <div id = "button_nav" style="float: right;">
+        <h3><a href="www.bloc.io">Register</a></h3>
+      </div>
+    </section>
 
     <hr>
 
-    <section style="padding-top: 20px;"><!--Nav Bar-->
-    	<div style="width: 1000px; height: 150px; margin: 1px;">
-        	<h3 style="float: left; padding-left: 15px; padding-top: 15px;">Blog</h3>
-            <h3 style="float: left; padding-left: 50px; padding-top: 15px;">About</h3>
-            <h3 style="float: right; padding-right: 15px; padding-top: 15px;">Sign In/Register</h3>
+    <section id = "owner_dashboard"><!--Owner's Dashboard-->
+      <h2>Owner's Dashboard</h2>
+      <div id = "button_owner" style = "float: left;">
+          <h3>Manage Posts</h3>
+            <ul>
+              <li id = "small_button_owner"><a href="www.bloc.io">Create New</a></li> 
+              <li id = "small_button_owner"><a href="www.bloc.io"><a href="www.bloc.io">Edit Posts</a></li>
+                <li id = "small_button_owner"><a href="www.bloc.io"><a href="www.bloc.io">Delete</a></li>
+            </ul>  
+      </div>
+      <div id = "button_owner" style = "float: left; margin-left: 15px;">
+            <h3>Manage Comments</h3>
+      </div>  
+      <div id = "button_owner" style = "float: left; margin-left: 15px;">
+          <h3>Manage Media</h3>
+      </div>
         </div>
     </section>
 
     <hr>
 
-    <section style="padding-top: 20px;"><!--Owner's Dashboard-->
-    	<div style="width: 1000px; height: 300px; margin: 1px;">
-        	<h4 style="float: left; padding-left: 15px; padding-top: 15px;">Manage Posts</h4>
-        	<h4 style="float: left; padding-left: 50px; padding-top: 15px;">Manage Comments</h4>
-        	<h4 style="float: left; padding-left: 85px; padding-top: 15px;">Manage Media</h4>
-        </div>
-    </section>
-
-    <hr>
-
-     <section style="padding-top: 20px;"><!--Right Sidebar-->
-    	<div style="float: right; padding-top: 20px; clear: both; width: 250px; height: 400px; margin: 1px;background-color: #0F9;">
-        	<h3 style="padding-left: 15px;">Recent Posts</h3>
+     <section id = "right_sidebar"><!--Right Sidebar-->
+            <h3 style="padding-left: 15px;">Recent Posts</h3>
             <h3 style="padding-left: 15px;">Recent Comments</h3>
-        </div>
+      </section>
+ 
        <header> 
-       		<h1>Posts</h1>
+            <h1>Posts</h1>
        </header>
        <article>
-       	<header>
-        	<h2>Today's Musings</h2>
+        <header>
+          <h2><a href="www.bloc.io">Today's Musings</a></h2>
         </header>
-        	<p>This is sample text for a sample post.</p>
+            <p>This is sample text for a sample post.</p>
        </article> 
        <article>
-       	<header>
-        	<h2>Yesterday's Musings</h2>
+        <header>
+          <h2><a href="www.bloc.io">Yesterday's Musings</a></h2>
         </header>
-        	<p>This is a sample text for a sample post.</p>
+            <p>This is a sample text for a sample post.</p>
         </article>     
      </section> 
      
-    <section style="padding-top: 20px;">
-    	<figure>
-        	<img src="http://placehold.it/200x200" />
+        <figure>
+          <h2><a href="www.bloc.io">Trip Photos</a></h2>
+            <img src="http://placehold.it/200x200" />
             <img src="http://placehold.it/200x200" />
         <figcaption>
-        	The best places for musing.
-       	</figcaption>
+            The best places for musing.
+        </figcaption>
         </figure> 
-    </section>
  
- 	<hr>
+    <hr>
        
-    <section style="padding-top: 20px;">
-    	<footer>
-        	<p>copyright JJB 2013</p>
-            <nav>
-            	<ul>
-                	<li>About</li>
-                    <li>Contact</li>
+    <section id="footer">
+      <footer>
+                <ul>
+                  <li class="first"><strong><a href="www.bloc.io">About</a></strong></li>
+                  <li><strong><a href="www.bloc.io">Contact</a></strong></li>
+                  <li>Copyright 2013</li>
                 </ul>
            </nav>
        </footer>
@@ -83,4 +100,4 @@
 
 
 </body>
-</html>		
+</html>     

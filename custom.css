@@ -26,7 +26,7 @@ a:hover {
 }
 
 #banner {
-  width: 1000px;
+  width: 1300px;
   height: 300px;
   padding: 10px;
 }
@@ -65,6 +65,7 @@ a:hover {
   height: 350px;
   padding: 5px;
   background-color: #ced3e1;
+  margin: 0 auto;
 }
 
 #owner_dashboard h2 {
@@ -112,7 +113,7 @@ a:hover {
       }
 
 article {
-     width: 750px;
+     width: 950px;
      border-radius: 5px;
      border: 2px solid #2155d9;
      margin: 10px;
@@ -137,7 +138,7 @@ article a:hover {
 }
 
 figure {
-     width: 750px;
+     width: 950px;
      border-radius: 5px;
      border: 2px solid #2155d9;
      margin: 10px;

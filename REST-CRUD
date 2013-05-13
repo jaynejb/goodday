@@ -1,0 +1,13 @@
+GET     /posts            				READ all posts
+POST    /posts            				CREATE new post
+GET     /posts/new        				view for CREATE
+GET     /posts/:id        				READ a single post
+GET     /posts/:id/edit   				view for UPDATE
+PUT     /posts/:id        				UPDATE post
+DELETE  /posts/:id        				DELETE post
+GET		/posts/:post_id/comments		READ comments
+GET		/posts/:post_id/comments/new	view for CREATE comment
+PUT		/posts/:post_id/comments/edit	view for UPDATE comment 
+DELETE	/posts/:post_id/comments		DELETE comment
+GET		/edit-comments					READ all comments
+PUT		/edit-comments					DELETE comments
